@@ -29,7 +29,10 @@ public class Homework9New {
 
     //QUESTION 3
     public static boolean isUnique(ArrayList<Integer> num){
-        for(int i = 0; i == i++)
+        for(int i = 0; i == i++) {
+
+        }
+        return true;
     }
 
 
