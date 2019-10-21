@@ -47,7 +47,7 @@ public class Homework8 {
     public static void main(String[] args){
         // System.out.println(sameFirstLast(new int[]{1,2,3}));
         // System.out.println(plusTwo(new int[] {1,2}, new int[] {3,4}));
-        System.out.println(makePi(piArray));
+        //System.out.println(makePi(piArray));
         // System.out.println(rotateLeft3(int [1,2,3]));
      }
 
