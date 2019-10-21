@@ -25,14 +25,14 @@ public class Homework8 {
        } */
 
       //QUESTION 3
-   /*   public int[] makePi() {
+     public int[] makePi() {
         int[] piArray = new int[] {3,1,4};
 
         return piArray;
-      } */
+      }
 
    //QUESTION 4
-   public int[] rotateLeft3(int[] nums) {
+  /* public int[] rotateLeft3(int[] nums) {
        int[] newArray = new int[3];
 
        newArray[0] = nums[1];
@@ -40,14 +40,14 @@ public class Homework8 {
        newArray[2] = nums[0];
 
        return newArray;
-   }
+   }*/
 
 
 
-    public void main(String[] args){
-        // System.out.println(sameFirstLast([1,2,3]));
-        // System.out.println(plusTwo([1,2],[3,4]));
-        // System.out.println(makePi(piArray));
+    public static void main(String[] args){
+        // System.out.println(sameFirstLast(new int[]{1,2,3}));
+        // System.out.println(plusTwo(new int[] {1,2}, new int[] {3,4}));
+        System.out.println(makePi(piArray));
         // System.out.println(rotateLeft3(int [1,2,3]));
      }
 
