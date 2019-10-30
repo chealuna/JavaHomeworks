@@ -3,40 +3,42 @@ package com.example.homeworks;
 import java.util.ArrayList;
 
 public class Homework9 {
+/*
 
-    //QUESTION 2
-//    public void removeEvenLength(ArrayList <String> stringList){
-//        for(int i = 0 ;i < stringList.size(); i++){
-//            String word=stringList.get(i);
-//            if(word.length()%2==0){//even
-//                stringList.remove(word);//if it is even,test from the first word  then continue looping
-//            }
-//        }
-//
-//     //QUESTION 3
-//        public static boolean isUnique(int[] list) {
-//            for (int i = 0; i < list.length; i++) {
-//                for (int j = i + 1; j < list.length; j++) {
-//                    if (list[i] == list[j]) {
-//                        return false;
-//                    }
-//                }
-//            }
-//            return true;
-//        }
-//
-//        //QUESTION 4
-//        public static boolean isSorted(double[] array) {
-//            double pre = array[0];
-//            for (int i = 1; i < array.length; i++) {
-//                double current = array[i];
-//                if (pre >= current) {
-//                    return false;
-//                }
-//                pre = current;
-//            }
-//            return true;
-//        }
+    QUESTION 2
+    public void removeEvenLength(ArrayList <String> stringList){
+        for(int i = 0 ;i < stringList.size(); i++){
+            String word=stringList.get(i);
+            if(word.length()%2==0){//even
+                stringList.remove(word);//if it is even,test from the first word  then continue looping
+            }
+        }
+
+     //QUESTION 3
+        public static boolean isUnique(int[] list) {
+            for (int i = 0; i < list.length; i++) {
+                for (int j = i + 1; j < list.length; j++) {
+                    if (list[i] == list[j]) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        //QUESTION 4
+        public static boolean isSorted(double[] array) {
+            double pre = array[0];
+            for (int i = 1; i < array.length; i++) {
+                double current = array[i];
+                if (pre >= current) {
+                    return false;
+                }
+                pre = current;
+            }
+            return true;
+        }
+*/
 
 
         public static void main(String[] args){

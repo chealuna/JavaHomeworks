@@ -16,7 +16,7 @@ public class Homework9New {
         return list;
     }*/
 
-    //QUESTION 2
+   /* //QUESTION 2
     public static ArrayList<String> removeEvenLength(ArrayList<String> list){
         Iterator<String> iter = list.iterator();
         while(iter.hasNext()){
@@ -25,12 +25,16 @@ public class Homework9New {
             }
         }
         return list;
-    }
+    } */
 
     //QUESTION 3
     public static boolean isUnique(ArrayList<Integer> num){
-        for(int i = 0; i == i++) {
-
+        for(int i = 0; i < num.size(); i = i++) {
+          for(int j = 1; j< num.size(); j = j++) {
+              if(num.get(i).equals(num.get(j))){
+                  return false;
+              }
+          }
         }
         return true;
     }
@@ -43,11 +47,11 @@ public class Homework9New {
         //System.out.println(Arrays.toString(mystery(new int[] {7, 3, 2, 0, 5})));
 
         //Q2
-        System.out.println(removeEvenLength(new ArrayList<>(Arrays.asList("London", "Tokyo", "New York"))));
-        System.out.println(removeEvenLength(new ArrayList<>(Arrays.asList("Giza,", "Florence", "San Miguel"))));
+       // System.out.println(removeEvenLength(new ArrayList<>(Arrays.asList("London", "Tokyo", "New York"))));
+        //System.out.println(removeEvenLength(new ArrayList<>(Arrays.asList("Giza,", "Florence", "San Miguel"))));
 
         //Q3
         //System.out.println(isUnique(new int[] {7, 3, -54, 0, 5, 3, -100}));
-        //System.out.println(isUnique(new int[] {6, 23, -23, 9, 0, 3}));
+        System.out.println(isUnique(new int[] {6, 0, -23, 9, 0, 3}));
     }
 }
