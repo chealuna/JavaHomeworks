@@ -52,6 +52,6 @@ public class Homework9New {
 
         //Q3
         //System.out.println(isUnique(new int[] {7, 3, -54, 0, 5, 3, -100}));
-        System.out.println(isUnique(new int[] {6, 0, -23, 9, 0, 3}));
+        System.out.println(isUnique(new ArrayList<>(Arrays.asList(1,2,3))));
     }
 }

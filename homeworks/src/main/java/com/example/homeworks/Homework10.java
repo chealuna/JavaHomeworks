@@ -1,9 +1,10 @@
 package com.example.homeworks;
+import java.util.Arrays;
 
 public class Homework10 {
 
     //QUESTION 1 (need help)
-    /*public int bigDiff(int[] nums) {
+    public static int bigDiff(int[] nums) {
         int max = nums[0];
         int min = nums[0];
 
@@ -18,11 +19,10 @@ public class Homework10 {
         }
 
         return max - min;
+    }
 
-    } */
-
-    //QUESTION 2 (need help understanding)
-   /* public int[] tenRun(int[] nums) {
+    //QUESTION 2
+   public static int[] tenRun(int[] nums) {
         int current;
         int i = 0;
 
@@ -44,10 +44,10 @@ public class Homework10 {
         }
 
         return nums;
-    } */
+    }
 
-   //QUESTION 3 (DO NOT UNDERSTAND)
-   /* public int[] withoutTen(int[] nums) {
+   //QUESTION 3
+    public int[] withoutTen(int[] nums) {
        int i = 0;
 
        while(i < nums.length && nums[i] != 10)
@@ -65,34 +65,45 @@ public class Homework10 {
            nums[i] = 0;
 
        return nums;
-   } */
+   }
 
 //QUESTION 4
-    public boolean haveThree(int[] nums){
+    public boolean haveThree(int[] nums) {
         int count = 0;
         boolean found = false;
 
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] != 3)
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 3)
                 found = false;
-            if(nums[i] == 3 && found == true)
+            if (nums[i] == 3 && found == true)
                 return false;
-            if(nums[i] == 3 && found == false){
+            if (nums[i] == 3 && found == false) {
                 found = true;
                 count++;
             }
         }
-        if(count == 3){
+        if (count == 3) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
+
     public static void main(String[] args) {
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        //1
+        System.out.println(bigDiff(new int[] {10, 3, 5, 6}));
+        System.out.println(bigDiff(new int[] {7, 2, 10, 9}));
+        System.out.println(bigDiff(new int[] {2, 10, 7, 2}));
+
+        //2
+        System.out.println(Arrays.toString(tenRun(new int[] {2, 10, 3, 4, 20, 5})));
+        System.out.println(Arrays.toString(tenRun(new int[] {10, 1, 20, 2})));
+        System.out.println(Arrays.toString(tenRun(new int[] {10, 1, 9, 4, 20})));
+
+        //3
+       // System.out.println(Arrays.toString);
+
 
     }
 
